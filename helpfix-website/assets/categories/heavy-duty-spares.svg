@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<rect width="1200" height="800" fill="#f7f7f7"/>
+<rect x="40" y="40" width="1120" height="720" rx="10" fill="#ffffff" stroke="#e1e3e8" stroke-width="3"/>
+<g fill="#111a35" opacity="0.95">
+<circle cx="250" cy="360" r="110" fill="none" stroke="#111a35" stroke-width="34"/><circle cx="250" cy="360" r="42" fill="#fff"/>
+<circle cx="525" cy="330" r="82" fill="none" stroke="#ec1d2e" stroke-width="28"/><circle cx="525" cy="330" r="28" fill="#fff"/>
+<rect x="700" y="235" width="210" height="170" rx="24" fill="#d9dee8"/><rect x="745" y="275" width="120" height="90" rx="12" fill="#111a35"/>
+<path d="M160 565h160l28 45H132z" fill="#ec1d2e"/><path d="M415 565h160l28 45H387z" fill="#111a35"/>
+<rect x="690" y="520" width="245" height="55" rx="27" fill="#ec1d2e"/><circle cx="955" cy="547" r="34" fill="#111a35"/>
+</g>
+<text x="600" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="800" fill="#ec1d2e">HEAVY-DUTY SPARES</text>
+<text x="600" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#566075">Truck • Equipment • Hydraulic • Replacement Parts</text>
+<text x="600" y="700" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#111a35">HELPFIX ENGINEERING</text>
+</svg>

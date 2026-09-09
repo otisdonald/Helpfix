@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Browse HELPFIX Engineering's visual catalogue of tools, equipment, engineering spares, automobile spares, heavy-duty spares and fabrication solutions.">
+<title>Products & Spares | HELPFIX Engineering</title>
+<!-- HELPFIX SEO / BRAND ICONS -->
+<link rel="icon" href="assets/seo/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/seo/favicon-64.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/seo/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#111a35">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<link rel="canonical" href="https://www.helpfixengineering.com/products.html">
+<meta property="og:url" content="https://www.helpfixengineering.com/products.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HELPFIX Engineering Limited">
+<meta property="og:title" content="Products & Spares | HELPFIX Engineering">
+<meta property="og:description" content="Browse HELPFIX Engineering's visual catalogue of engineering tools, equipment, engineering spares, automobile spares, heavy-duty spares and fabrication solutions.">
+<meta property="og:image" content="https://www.helpfixengineering.com/assets/seo/helpfix-logo-square.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Products & Spares | HELPFIX Engineering">
+<meta name="twitter:description" content="Browse HELPFIX Engineering's tools, equipment and engineering spares by category.">
+<meta name="twitter:image" content="https://www.helpfixengineering.com/assets/seo/helpfix-logo-square.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#111a35;--navy2:#172241;--red:#ec1d2e;--text:#171c28;--muted:#697386;--line:#e6e8ed;--bg:#f6f7f9}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Manrope,Arial,sans-serif;color:var(--text);background:#fff}a{text-decoration:none;color:inherit}.container{width:min(1180px,calc(100% - 40px));margin:auto}
+.topbar{background:var(--navy);color:#c9cfdb;font-size:11px;padding:10px 0}.topbar-inner{display:flex;justify-content:space-between;gap:20px;align-items:center}.topbar a{color:#fff}
+.navbar{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid var(--line)}.nav-inner{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand img{width:145px;height:50px;object-fit:contain}.nav-links{display:flex;align-items:center;gap:23px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.35px}.nav-links a{color:#303849}.nav-links a.active,.nav-links a:hover{color:var(--red)}
+.hero{background:radial-gradient(circle at 85% 15%,#26365d 0,transparent 28%),linear-gradient(135deg,#101932,#172647);color:#fff;padding:90px 0 80px;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:470px;height:470px;border:1px solid rgba(255,255,255,.08);border-radius:50%;right:-170px;bottom:-250px}.eyebrow{font-size:11px;letter-spacing:1.8px;font-weight:800;color:#ff7480;margin-bottom:18px}.hero h1{font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(42px,6vw,74px);line-height:1.02;letter-spacing:-3px;max-width:900px;margin:0 0 20px}.hero p{max-width:760px;color:#c8d0de;line-height:1.8;font-size:15px}.hero-actions{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}.btn{padding:15px 21px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.5px}.btn-red{background:var(--red);color:#fff}.btn-white{border:1px solid rgba(255,255,255,.35);color:#fff}
+.intro{padding:58px 0 32px;background:var(--bg)}.intro-grid{display:flex;justify-content:space-between;align-items:end;gap:35px}.section-tag{font-size:10px;color:var(--red);font-weight:800;letter-spacing:1.5px}.intro h2{font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(30px,4vw,50px);letter-spacing:-1.8px;margin:10px 0 0;max-width:690px}.intro p{max-width:400px;color:var(--muted);line-height:1.8;font-size:13px}
+.filters{position:sticky;top:76px;z-index:50;background:#fff;border-bottom:1px solid var(--line);padding:17px 0;overflow-x:auto}.filter-inner{display:flex;gap:9px;min-width:max-content}.filter-btn{border:1px solid var(--line);background:#fff;color:#515b6b;padding:11px 16px;font:800 10px Manrope;text-transform:uppercase;letter-spacing:.5px;cursor:pointer;transition:.25s}.filter-btn:hover,.filter-btn.active{background:var(--navy);border-color:var(--navy);color:#fff}
+.catalogue{padding:50px 0 90px}.catalogue-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.category-card{border:1px solid var(--line);background:#fff;overflow:hidden;transition:.35s;opacity:1}.category-card.hidden{display:none}.category-card:hover{transform:translateY(-7px);box-shadow:0 20px 50px rgba(17,26,53,.11);border-color:#d4d9e2}.category-image{aspect-ratio:1.25;background:#fafafa;overflow:hidden;border-bottom:1px solid var(--line)}.category-image img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .65s ease}.category-card:hover .category-image img{transform:scale(1.035)}.category-body{padding:22px 22px 20px}.category-body>span{font-size:9px;font-weight:800;letter-spacing:1.2px;color:var(--red)}.category-body h3{font-family:'Plus Jakarta Sans',sans-serif;font-size:22px;letter-spacing:-.6px;margin:10px 0 9px;line-height:1.2}.category-body p{font-size:12px;color:var(--muted);line-height:1.7;margin:0 0 19px;min-height:61px}.card-link{display:flex;align-items:center;justify-content:space-between;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.4px;color:var(--navy);border-top:1px solid var(--line);padding-top:15px}.card-link b{color:var(--red);font-size:16px}
+.cta{background:var(--navy);color:#fff;padding:65px 0}.cta-grid{display:flex;align-items:center;justify-content:space-between;gap:35px}.cta h2{font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(30px,4vw,48px);letter-spacing:-1.5px;margin:0 0 12px}.cta p{margin:0;color:#b9c3d3;line-height:1.8;max-width:650px;font-size:13px}
+footer{background:#0c1226;color:#b8c0cf;padding:48px 0 25px}.footer-grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}footer strong{color:#fff;font-family:'Plus Jakarta Sans',sans-serif;font-size:22px}footer p{font-size:12px;line-height:1.8}.footer-bottom{border-top:1px solid rgba(255,255,255,.1);margin-top:35px;padding-top:20px;font-size:10px}
+.reveal{animation:fadeUp .7s ease both}@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:900px){.nav-links{gap:12px;font-size:9px}.catalogue-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:680px){.container{width:min(100% - 28px,1180px)}.topbar a{display:none}.topbar-inner,.intro-grid,.cta-grid{align-items:flex-start;flex-direction:column}.navbar{position:relative}.nav-inner{height:70px}.nav-links{overflow-x:auto;max-width:calc(100vw - 170px);white-space:nowrap}.nav-links a{font-size:8px}.filters{top:0}.catalogue-grid{grid-template-columns:1fr;gap:16px}.category-body p{min-height:auto}.hero{padding:65px 0}.hero h1{letter-spacing:-2px}}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.helpfixengineering.com/products.html#products-page",
+      "name": "Products & Spares | HELPFIX Engineering",
+      "url": "https://www.helpfixengineering.com/products.html",
+      "description": "Visual catalogue of HELPFIX Engineering tools, equipment, engineering spares, automobile spares, heavy-duty spares and fabrication solutions.",
+      "about": {"@id": "https://www.helpfixengineering.com/#organization"},
+      "inLanguage": "en-NG"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.helpfixengineering.com/products.html#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.helpfixengineering.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Products & Spares", "item": "https://www.helpfixengineering.com/products.html"}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<div class="topbar"><div class="container topbar-inner"><span>Engineering Tools • Equipment • Industrial & Heavy-Duty Spares</span><a href="tel:+2347038745193">+234 703 874 5193</a></div></div>
+<header class="navbar"><div class="container nav-inner"><a class="brand" href="index.html"><img src="assets/helpfix-logo.png" alt="HELPFIX Engineering logo"></a><nav class="nav-links"><a href="index.html">Home</a><a href="index.html#about">About Us</a><a href="products.html" class="active">Products & Spares</a><a href="index.html#services">Services</a><a href="index.html#industries">Industries</a><a href="index.html#clients">Clients</a><a href="index.html#contact">Contact</a></nav></div></header>
+<main>
+<section class="hero"><div class="container"><div class="eyebrow">03 — PRODUCTS & SPARES</div><h1>Tools and engineering spares built for serious work.</h1><p>From industrial operations and construction projects to engineering workshops and building solutions, HELPFIX supplies the engineering spares, tools and equipment businesses depend on to keep moving.</p><div class="hero-actions"><a class="btn btn-red" href="#catalogue">Explore Categories ↓</a><a class="btn btn-white" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20a%20product%20or%20spares%20enquiry." target="_blank" rel="noopener">Chat on WhatsApp</a></div></div></section>
+<section class="intro"><div class="container intro-grid"><div><div class="section-tag">VISUAL PRODUCT CATALOGUE</div><h2>Browse our range by category.</h2></div><p>We have simplified the catalogue into easy-to-browse categories. Select a category and contact HELPFIX directly for availability, sourcing support and quotations.</p></div></section>
+<section class="filters"><div class="container filter-inner"><button class="filter-btn active" data-filter="all">All Categories</button><button class="filter-btn" data-filter="tools-equipment">Tools & Equipment</button><button class="filter-btn" data-filter="spares">Spares</button><button class="filter-btn" data-filter="services">Services</button></div></section>
+<section class="catalogue" id="catalogue"><div class="container"><div class="catalogue-grid"><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/hand-tools.jpg" alt="Hand Tools" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Hand Tools</h3><p>Professional hand tools and workshop solutions for engineering and maintenance work.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Hand%20Tools." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/lifting-tools.jpg" alt="Lifting Tools" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Lifting Tools</h3><p>Hoists, lifting equipment and related tools for demanding operations.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Lifting%20Tools." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/industrial-equipment.jpg" alt="Industrial Equipment" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Industrial Equipment</h3><p>Industrial equipment and machinery for engineering and operational requirements.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Industrial%20Equipment." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/light-construction-equipment.jpg" alt="Light Construction Equipment" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Light Construction Equipment</h3><p>Construction equipment for site work, project support and demanding jobs.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Light%20Construction%20Equipment." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/lubrication-equipment.jpg" alt="Lubrication Equipment" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Lubrication Equipment</h3><p>Lubrication tools and equipment for maintenance and workshop operations.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Lubrication%20Equipment." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/pipe-tubing-tools.jpg" alt="Pipe & Tubing Tools" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Pipe & Tubing Tools</h3><p>Tools and equipment for pipe preparation, handling and related engineering work.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Pipe%20%26%20Tubing%20Tools." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/pneumatic-tools.jpg" alt="Pneumatic Tools" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Pneumatic Tools</h3><p>Air-powered tools and accessories for workshop and industrial use.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Pneumatic%20Tools." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/pumps.jpg" alt="Pumps" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Pumps</h3><p>Pump solutions and related equipment for industrial and operational applications.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Pumps." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/safety-tools.jpg" alt="Safety Tools" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Safety Tools</h3><p>PPE and safety solutions for people working in demanding environments.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Safety%20Tools." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/welding-tools-equipment.jpg" alt="Welding Tools & Equipment" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Welding Tools & Equipment</h3><p>Welding machines, tools and accessories for fabrication and engineering work.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Welding%20Tools%20%26%20Equipment." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/woodworking-tools-equipment.jpg" alt="Woodworking Tools & Equipment" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Woodworking Tools & Equipment</h3><p>Tools and equipment for professional woodworking applications.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Woodworking%20Tools%20%26%20Equipment." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/material-handling-tools.jpg" alt="Material Handling Tools" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Material Handling Tools</h3><p>Equipment and tools for moving, supporting and handling materials.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Material%20Handling%20Tools." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/power-tools.jpg" alt="Power Tools" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Power Tools</h3><p>Professional power tools for workshop, construction and engineering work.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Power%20Tools." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/garage-garden-tools.jpg" alt="Garage & Garden Tools" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Garage & Garden Tools</h3><p>Tools and equipment for garage, maintenance and outdoor applications.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Garage%20%26%20Garden%20Tools." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/cleaning-waste-tools.jpg" alt="Cleaning & Waste Tools" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Cleaning & Waste Tools</h3><p>Cleaning, waste handling and facility support solutions.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Cleaning%20%26%20Waste%20Tools." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="tools-equipment">
+      <div class="category-image"><img src="assets/categories/building-solutions.jpg" alt="Building Solutions" loading="lazy"></div>
+      <div class="category-body"><span>TOOLS & EQUIPMENT</span><h3>Building Solutions</h3><p>Selected building and finishing solutions for project requirements.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Building%20Solutions." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="spares">
+      <div class="category-image"><img src="assets/categories/engineering-industrial-spares.svg" alt="Engineering & Industrial Spares" loading="lazy"></div>
+      <div class="category-body"><span>SPARES</span><h3>Engineering & Industrial Spares</h3><p>Sourcing support for industrial components, replacement parts and engineering spares.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Engineering%20%26%20Industrial%20Spares." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="spares">
+      <div class="category-image"><img src="assets/categories/automobile-spares.svg" alt="Automobile Spares" loading="lazy"></div>
+      <div class="category-body"><span>SPARES</span><h3>Automobile Spares</h3><p>Automobile replacement parts and components sourced based on client requirements.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Automobile%20Spares." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="spares">
+      <div class="category-image"><img src="assets/categories/heavy-duty-spares.svg" alt="Heavy-Duty Spares" loading="lazy"></div>
+      <div class="category-body"><span>SPARES</span><h3>Heavy-Duty Spares</h3><p>Heavy-duty vehicle and equipment spares for demanding maintenance requirements.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Heavy-Duty%20Spares." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article><article class="category-card reveal" data-group="services">
+      <div class="category-image"><img src="assets/categories/fabrication-works.svg" alt="Fabrication Works" loading="lazy"></div>
+      <div class="category-body"><span>SERVICES</span><h3>Fabrication Works</h3><p>Fabrication and project-specific engineering support built around client requirements.</p>
+      <a class="card-link" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Fabrication%20Works." target="_blank" rel="noopener">Request a Quote <b>↗</b></a></div>
+    </article></div></div></section>
+<section class="cta"><div class="container cta-grid"><div><div class="section-tag" style="color:#ff7480">CAN'T FIND WHAT YOU NEED?</div><h2>Tell us what you need.</h2><p>Send HELPFIX your product, equipment or spare requirement and our team can provide sourcing and supply support based on your enquiry.</p></div><a class="btn btn-red" href="https://wa.me/2347038745193?text=Hello%20HELPFIX%20Engineering%2C%20I%20would%20like%20to%20send%20my%20product%20or%20spare%20requirement%20for%20a%20quote." target="_blank" rel="noopener">Request a Quote</a></div></section>
+</main>
+<footer><div class="container"><div class="footer-grid"><div><strong>HELPFIX</strong><p>Engineering tools, equipment, spares and solutions built for serious work.</p></div><div><p><b style="color:#fff">WhatsApp</b><br>07038745193</p></div></div><div class="footer-bottom">© 2026 HELPFIX Engineering Limited. All rights reserved.</div></div></footer>
+<script>
+const buttons=document.querySelectorAll('.filter-btn');const cards=document.querySelectorAll('.category-card');buttons.forEach(btn=>btn.addEventListener('click',()=>{buttons.forEach(b=>b.classList.remove('active'));btn.classList.add('active');const filter=btn.dataset.filter;cards.forEach(card=>{card.classList.toggle('hidden',filter!=='all'&&card.dataset.group!==filter);});}));
+</script>
+</body>
+</html>

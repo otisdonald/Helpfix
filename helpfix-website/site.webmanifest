@@ -1,0 +1,13 @@
+{
+  "name": "HELPFIX Engineering Limited",
+  "short_name": "HELPFIX",
+  "description": "Engineering tools, equipment, engineering spares, automobile spares, heavy-duty spares and fabrication solutions.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111a35",
+  "icons": [
+    {"src":"assets/seo/icon-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"assets/seo/icon-512.png","sizes":"512x512","type":"image/png"}
+  ]
+}
